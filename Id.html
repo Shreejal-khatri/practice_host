@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>This is paragraph1</p>
+    <p>This is paragraph2</p>
+    <p>This is paragraph3</p>
+    <p>This is paragraph4</p>
+    <button onclick = changeStyling()>Click me</button>
+    <script>
+        function changeStyling(){
+        let paras = document.getElementsByTagName("p");
+        paras[0].style.color = "blue";
+        paras[1].style.backgroundColor = "red";
+        paras[2].style.fontStyle = "italic";
+        paras[3].style.fontSize = "30px";
+
+        }
+
+    </script>
+    
+</body>
+</html>
